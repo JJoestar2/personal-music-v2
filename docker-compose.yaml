@@ -13,4 +13,5 @@ services:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_USER=bohdan
       - POSTGRES_DB=personal-music
+      - POSTGRES_HOST=127.0.0.1
       - ALLOW_IP_RANGE=0.0.0.0/0
